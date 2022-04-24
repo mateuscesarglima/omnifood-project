@@ -46,6 +46,8 @@ html {
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
   /* For example, if we need to use 20px in anywhere use 2.0rem, because we changed the font-size percentage. */
+  overflow-x: hidden;
+
 }
 
 body {
@@ -53,6 +55,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 /********************************/
@@ -97,7 +100,8 @@ body {
 }
 
 .heading-primary,
-.heading-secondary {
+.heading-secondary,
+.heading-tertiary {
   font-weight: 700;
   letter-spacing: -0.5px;
   color: #333;
