@@ -48,6 +48,8 @@ html {
   /* For example, if we need to use 20px in anywhere use 2.0rem, because we changed the font-size percentage. */
   overflow-x: hidden;
 
+  /* does NOT work on Safari */
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -56,6 +58,7 @@ body {
   font-weight: 400;
   color: #555;
   overflow-x: hidden;
+
 }
 
 /********************************/
